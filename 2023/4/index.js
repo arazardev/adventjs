@@ -21,5 +21,3 @@ function decode(message) {
     let result = message.replace(`(${inBrackets})`,inBracketsInversed)
     return  decode(result)
   }
-
-console.log(decode('sa(u(cla)atn)s'))
