@@ -20,4 +20,4 @@ function decode(message) {
     let inBracketsInversed = inBracketsArray.reverse().join("")
     let result = message.replace(`(${inBrackets})`,inBracketsInversed)
     return  decode(result)
-  }
+}1
